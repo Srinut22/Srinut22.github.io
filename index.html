@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <title>My Resume</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-branding">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <img class="header-image" src="./SrinathSaikrishnan_ProfilePic.jpeg" alt="An image of me standing in front of shruberry, smirking like the clown I am">
+        </a>
+        <div class="header-title">Srinath Saikrishnan</div>
+      </div>
+      <nav class="header-navbar">
+        <a href="./index.html">Resume</a>
+        <a href= "mailto:srinath.sai22@gmail.com" data-email-link>Contact Me</a>
+        <a href="https://github.com/Srinut22" target="_blank">GitHub</a>
+        <a href="./feedback.html">Feedback</a> 
+        <button class="header-button" type="button" data-theme-toggle aria-label="Change to light theme">
+            Toggle Theme
+          </button>
+      </nav>
+    </header> 
+    <section class="experience">
+      <h2>Experience</h2>
+      
+      <div class="experience-entry">
+        <h3><a href="https://datalab.astro.ucla.edu/" class="experience-link" target="_blank">Astrophysics Data Lab</a> – May 2024 – Present</h3>
+        <p><strong>Student Researcher</strong></p>
+        <ul>
+          <li>Applied transfer learning to improve photometric redshift estimation, reducing prediction bias by ~5× and improving RMS by ~1.5× over state-of-the-art models.</li>
+          <li>Processed and cleaned large-scale astrophysics datasets for ML readiness.</li>
+          <li>Designed and executed SQL queries to compile secondary datasets, using decision tree fitting to extract key features.</li>
+          <li>Trained and fine-tuned neural network and CNN models, applying Grid Search for hyperparameter optimization.</li>
+          <li>Explored transfer learning with NN, CNN, and hybrid CNN+NN models, benchmarking against Vision Transformers.</li>
+        </ul>
+      </div>
+    
+      <div class="experience-entry">
+        <h3><a href="https://www.georgevargheseucla.com/" class="experience-link" target="_blank">HTTP/3 Verification | In Progress</a> – Jan. 2025 – Present</h3>
+        <p><strong>Student Researcher</strong></p>
+        <ul>
+          <li>Conducted thorough testing of 3 open-source HTTP/3 implementations of URI resolution.</li>
+          <li>Leveraged LLMs and RAG to build a server model, applying symbolic execution to explore execution paths and identify potential vulnerabilities.</li>
+          <li>Performed differential testing across multiple HTTP/3 implementations using Docker containers to uncover protocol inconsistencies.</li>
+          <li>Ongoing expansion of testing scope to include QUIC connection migration for enhanced protocol coverage.</li>
+        </ul>
+      </div>
+    
+      <div class="experience-entry">
+        <h3><a href="https://kamahalab.pa.ucla.edu/" class="experience-link" target="_blank">Kamaha Lab (Dark Matter Research)</a> – Nov. 2023 – Mar. 2024</h3>
+        <p><strong>Student Researcher</strong></p>
+        <ul>
+          <li>Developed a remote data acquisition pipeline for a Radon detector using pyserial and SQL, enabling real-time radiation monitoring.</li>
+          <li>Conducted simulations with GMSH and FENICS to model electron buildup, optimizing data analysis for precision.</li>
+          <li>Applied customized decision tree models to refine background radiation analysis, improving neutron detection accuracy.</li>
+        </ul>
+      </div>
+    </section>    
+    <section class="projects">
+        <h2>My Projects</h2>  
+        <ul class="project-list">
+          <li class="project-item">
+            <div class="project-header">
+            Machine Learning Soccer Score Predictor
+          </div>
+            <ol class="project-implementation-details">
+              <li>
+                Built a machine learning decision tree model to predict soccer match scores using web-scraped data from
+                multiple sports analytics platforms.              
+              </li>
+              <li>
+                Optimized training parameters and refined prediction accuracy through feature engineering and
+                hyperparameter tuning.
+              </li>
+              <li>
+                Designed an interactive frontend using Streamlit to visualize match predictions in real-time.
+              </li>
+            </ol>
+          </li>
+          <li class="project-item">   
+            <div class="project-header">  
+            Bruinleasy: Subleasing App
+          </div> 
+            <ol class="project-implementation-details">
+              <li> 
+                Implemented user authentication and authorization, improving security and usability.
+              </li>
+              <li>
+                Enhanced property search and filtering for a better user experience.
+              </li>
+              <li>
+                Integrated name matching using Jaro-Winkler Distance to improve search relevance.
+              </li>
+              <li>
+                Deployed the application on GitHub, ensuring accessibility and maintainability
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </section>
+      <section class="skills">
+        <h2>Skills, Languages & Frameworks</h2>
+        <div class="skills-grid">
+          <div class="skill-card">HTML</div>
+          <div class="skill-card">CSS</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">React</div>
+          <div class="skill-card">Node.js</div>
+          <div class="skill-card">Python</div>
+          <div class="skill-card">SQL</div>
+          <div class="skill-card">Git</div>
+          <div class="skill-card large-card">Cloud Computing</div>
+        </div>
+      </section>  
+      
+      <h3>Thanks for scrolling through! Here’s a little something to brighten your day (P.S. click on my image up in the top-left for brownie points!)</h3>
+      <img src="cat.png" alt="A cute cat" class="responsive-image">
+  </body>
+</html>

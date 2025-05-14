@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <title>Feedback Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <script src="./feedback.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-branding">
+        <a href="index.html">
+          <img class="header-image" src="./SrinathSaikrishnan_ProfilePic.jpeg" alt="An image of me standing in front of shruberry, smirking like the clown I am">
+        </a>
+        <div class="header-title">Srinath Saikrishnan</div>
+      </div>
+      <nav class="header-navbar">
+        <a href="./index.html">Resume</a>
+        <a href= "mailto:srinath.sai22@gmail.com" data-email-link>Contact Me</a>
+        <a href="https://github.com/Srinut22" target="_blank">GitHub</a>
+        <a href="./feedback.html">Feedback</a> 
+        <button class="header-button" type="button" data-theme-toggle aria-label="Change to light theme">
+            Toggle Theme
+          </button>
+      </nav>
+    </header> 
+    <section class="projects">
+      <h2>Feedback Form</h2>
+      <div class="form-container">
+      <form action="#" method="POST">
+          <fieldset>
+              <legend>Your Information</legend>
+  
+              <!-- Name input -->
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="John Doe">
+  
+              <!-- Email input -->
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+  
+              <!-- Date of birth input -->
+              <label for="dob">Date of Birth:</label>
+              <input type="date" id="dob" name="dob">
+  
+              <!-- Rating input -->
+              <label for="rating">Rating (1-5):</label>
+              <input type="number" id="rating" name="rating" min="1" max="5">
+  
+              <!-- Comments textarea -->
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments" rows="4" placeholder="Share your feedback here..." required></textarea>
+  
+              <!-- Color input -->
+              <label for="color">Favorite Color:</label>
+              <input type="color" id="color" name="color" value="#ff0000">
+  
+              <!-- Submit button -->
+              <button type="submit" value="Submit Feedback">Submit Feedback</button>
+          </fieldset>
+      </form>
+      </div>
+  </section>
+  
+  </body>
+</html>
