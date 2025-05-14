@@ -766,7 +766,6 @@ header {
   color: #6ca0dc;
   font-variant: small-caps;
   transition: transform 0.4s ease, color var(--transition-standard);
-  text-shadow: 1px 1px 1px #7f8c8d; /* Less pronounced shadow */
 }
 
 .header-navbar {
