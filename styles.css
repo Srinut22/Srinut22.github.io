@@ -66,10 +66,8 @@ header {
   font-family: 'Outfit', system-ui, sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  color: #6ca0dc;
-  font-variant: small-caps;
+  color: var(--color-fg);
   transition: transform 0.4s ease, color var(--transition-standard);
-  text-shadow: 2px 2px 2px #7f8c8d;
 }
 
 .header-navbar {
